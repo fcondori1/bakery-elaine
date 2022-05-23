@@ -4,6 +4,7 @@ import Main from './components/Main/Main';
 import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
 import Food from './components/Food Menu/Food';
+import Order from './components/Order/Order';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <Main />
       <Food />
+      <Order />
       <Footer />
     </div>
   );
