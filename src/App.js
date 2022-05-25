@@ -5,6 +5,7 @@ import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
 import Food from './components/Food Menu/Food';
 import Order from './components/Order/Order';
+import About from './components/About/About';
 
 function App() {
 	return (
@@ -12,9 +13,10 @@ function App() {
 			Hello World
 			<Navigation />
 			<Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/food' element={<Food />} />
-        <Route path='/order' element={<Order />} />
+				<Route path='/' element={<Main />} />
+				<Route path='/food' element={<Food />} />
+				<Route path='/order' element={<Order />} />
+				<Route path='/about' element={<About />} />
 			</Routes>
 			<Footer />
 		</div>
