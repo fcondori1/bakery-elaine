@@ -7,16 +7,16 @@ function Navigation(props) {
 		<div>
 			Hello from Navigation
 			<div className='box'>
-				<Link to='/'>
+				<Link className='box' to='/'>
 					<div className='box1'>Home</div>
 				</Link>
-				<Link to='/food'>
+				<Link className='box' to='/food'>
 					<div className='box2'>Food</div>
 				</Link>
-				<Link to='/order'>
+				<Link className='box' to='/order'>
 					<div className='box3'>Order</div>
 				</Link>
-				<Link to='/about'>
+				<Link className='box' to='/about'>
 					<div className='box4'>About</div>
 				</Link>
 				<div className='box5'></div>
